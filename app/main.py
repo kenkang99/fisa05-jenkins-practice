@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException, Depends, Request, Form
-# jinja 형식으로 작성된 html 파일을 렌더링해주기 위한 모듈
+## jinja 형식으로 작성된 html 파일을 렌더링해주기 위한 모듈
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 import joblib
